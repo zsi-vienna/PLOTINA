@@ -1,0 +1,6 @@
+<h1>Specific Indicators</h1>
+<section class="row text-center" *ngIf="data">
+  <div *ngFor="let indicator_data of data">
+    <indicator-chart *ngIf="indicator_data" [indicator_data]="indicator_data" [selectedIndex]="selectedIndex"></indicator-chart>
+  </div>
+</section>

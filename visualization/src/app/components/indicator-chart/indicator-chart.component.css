@@ -1,0 +1,125 @@
+div.indicator-chart {
+  width: 100%;
+  height: 160px;
+  border: 0px solid #221F80;
+  margin:0px;
+}
+
+div.indicator-chart .chart-path {
+  fill: rgb(176, 176, 176);
+  clip-path: url(#clip);
+}
+div.indicator-chart .axis {
+  stroke: #0267bf;
+}
+
+div.indicator-chart .axis-x path.domain {
+  stroke: #0267bf;
+}
+
+div.indicator-chart .hover-text {
+  fill: #0275d8;
+  font-weight: 600;
+}
+
+div.indicator-chart .axis-y path, line {
+  stroke: #0267bf;
+}
+
+div.indicator-chart .overlay {
+  fill: none;
+  pointer-events: all;
+}
+div.indicator-chart .line circle {
+  fill: #fff;
+  stroke: #0267bf;
+  stroke-width: 2px;
+}
+
+div.indicator-chart .hover-line {
+  stroke: #0267bf;
+  stroke-width: 2px;
+  stroke-dasharray: 10,3;
+}
+
+div.indicator-chart .threshold-line {
+  stroke: #0267bf;
+  stroke-width: 1px;
+}
+
+.card-header {
+  font-size: 1em;
+  font-weight: 300;
+  background-color: #ffffff;
+}
+
+.card-header > a > .info-icon {
+  margin-top: -4px;
+}
+
+.card-header a:link, .card-header a:hover,
+.card-header a:visited, c.card-header a:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* core indicators */
+.card-header.apple {
+  background-color: #960E18;
+  color: #ffffff;
+}
+
+/* specific indicators */
+.card-header.pear {
+  background-color: rgb(97, 97, 97);
+}
+.card-header.pear a:link, .card-header.pear a:hover,
+.card-header.pear a:visited, c.card-header.pear a:active {
+  color: #ffffff;
+}
+
+/* composite indicator */
+.card-header.plum {
+  background-color: rgb(168, 32, 39);
+  color: #ffffff;
+}
+
+/* threshold slider */
+.threshold {
+  top: 30px;
+  margin-left: 4px;
+}
+
+div.threshold.ui-slider .ui-slider-range {
+  background: rgb(101, 41, 105);
+}
+div.threshold.ui-slider .ui-slider-handle {
+  background-color: #0267bf;
+}
+div.threshold.ui-slider-vertical {
+  width: 5px;
+  height: 90px;
+}
+div.threshold.ui-widget-content {
+  border: 0px;
+}
+div.threshold.ui-slider.ui-slider-vertical .ui-slider-handle {
+  left: -7px;
+}
+div.threshold.ui-slider .ui-slider-handle {
+  background-color: #0275d8;
+  transition: background-color 0.3s;
+  border-radius: 20%;
+}
+
+/* weight slider */
+div.weight.ui-widget-content {
+  border:0px;
+}
+div.weight.ui-slider-horizontal {
+  height: 5px;
+}
+div.weight.ui-slider.ui-slider-horizontal .ui-slider-handle {
+  top: -7px;
+}
+

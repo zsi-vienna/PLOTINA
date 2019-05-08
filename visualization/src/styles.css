@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~font-awesome/css/font-awesome.css';
+
+@font-face {
+  font-family: 'aFont';
+  src: url('assets/Open_Sans/OpenSans-Regular.ttf')  format('truetype');
+}
+
+h1 {
+  font-weight:100;
+  font-size: 2.5em;
+}
+h2 {
+  font-weight:100;
+  font-size: 2em;
+}
+h3 {
+  font-weight:100;
+  font-size: 1.5em;
+}

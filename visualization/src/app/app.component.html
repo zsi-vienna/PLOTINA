@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+  <a class="navbar-brand" href="#"><img src="assets/pics/plotina_logo.png" width="350"/></a>
+  <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarHead" aria-controls="navbarHead" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <p class="font-weight-bold">{{demo}}</p>
+  <div class="collapse navbar-collapse" id="navbarHead">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/">CORE INDICATORS <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/specific-indicators">SPECIFIC INDICATORS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/settings">SETTINGS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/help">INFO </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container-fluid">
+  <div class="row">
+    <nav class="bg-light sidebar">
+      <composite-chart *ngIf="indicator_data" [data]="indicator_data" [threshold]="threshold"></composite-chart>
+      <div class="navbar-side">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="/">CORE INDICATORS <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/specific-indicators">SPECIFIC INDICATORS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/settings">SETTINGS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/help">INFO </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="ml-max p-4" role="main">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>

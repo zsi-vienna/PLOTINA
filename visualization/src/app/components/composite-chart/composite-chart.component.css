@@ -1,0 +1,79 @@
+div.composite-body {
+  background-color: #fff;
+}
+
+div.composite-body g>text {
+  fill: #0275d8;
+  font-weight: 600;
+}
+
+div.composite-chart {
+  width: 280px;
+  height: 200px;
+  border: 0px solid #960E18;
+  margin:0px;
+}
+
+div.composite-chart .chart-path {
+  fill: rgb(176, 176, 176);
+  clip-path: url(#clip);
+  border: 1px solid #000000;
+}
+
+div.composite-chart .axis path.domain, div.composite-chart .axis line {
+  stroke: #0275d8;
+}
+
+div.composite-chart .threshold-line {
+  stroke: #0267bf;
+  stroke-width: 1px;
+}
+
+div.composite-chart .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+div.composite-chart .line circle {
+  fill: #fff;
+  stroke: #0267bf;
+  stroke-width: 2px;
+}
+
+div.composite-chart .hover-line {
+  stroke: #0267bf;
+  stroke-width: 2px;
+  stroke-dasharray: 10,3;
+}
+
+.composite-header {
+  font-weight: 300;
+  text-align: center!important;
+}
+
+.threshold-comp {
+  top: 30px;
+  margin-left: 0px;
+}
+
+div.threshold-comp.ui-slider .ui-slider-range {
+  background: rgb(101, 41, 105);
+}
+div.threshold-comp.ui-slider .ui-slider-handle {
+  background-color: #0267bf;
+}
+div.threshold-comp.ui-slider-vertical {
+  width: 5px;
+  height: 132px;
+}
+div.threshold-comp.ui-widget-content {
+  border: 0px;
+}
+div.threshold-comp.ui-slider.ui-slider-vertical .ui-slider-handle {
+  left: -7px;
+}
+div.threshold-comp.ui-slider .ui-slider-handle {
+  background-color: #0275d8;
+  transition: background-color 0.3s;
+  border-radius: 20%;
+}

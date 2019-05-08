@@ -1,0 +1,33 @@
+# To generate graphical output from this source, you need graphviz.
+# Use this command:
+#   neato -n2 -T svg architecture.dot > architecture.svg
+
+digraph "PLOTINA GEP assessment tool" {
+    node [shape=box, style=filled, fillcolor=yellow, fontname="Helvetica"];
+
+    Limesurvey [label = "Limesurvey instance >= 2.62\nwith API enabled\n(Self-hosted or SaaS)", pos="0,600", fillcolor="orange"];
+
+    RPOAdminUser [label = "RPO statistics person", pos="600,600"];
+
+    Python [label = "Simple python based webserver\nrunning on standalone machine", pos="0,450", fillcolor="lightblue"];
+
+    DataManager [label = "RPO data manager", pos="600,450"];
+
+    VisualizationData [label ="visualization_data.json", pos="0,300", fillcolor="lightgreen"];
+    IndicatorDescriptions [label = "indicator_descriptions.json", pos="300,300", fillcolor="lightgreen"];
+    VisualizationSettings [label="visualization_settings.json\n\ncontains default indicator\nweights for later reuse)", pos="300,150", fillcolor="lightgreen"]
+    Visualization [label = "Visualization\nstatic webcontent (html, css, js, json)", pos="0,0", fillcolor="lightgreen"];
+
+    VisUser [label = "Visualization user", pos="600,0"];
+
+
+    RPOAdminUser -> Limesurvey [label = "enter aggregated data"];
+    Limesurvey -> Python [label = "retrieve questions and responses"];
+    DataManager -> Python [label = "enter custom formulas for indicators\nand select responses to export"];
+    DataManager -> IndicatorDescriptions [label = "edit"];
+    Python -> VisualizationData [label = "export"];
+    VisualizationData -> Visualization [label = "add"];
+    VisUser -> Visualization [label = "view"];
+    VisualizationSettings -> Visualization [label = "add"];
+    IndicatorDescriptions -> Python;
+}
