@@ -1,0 +1,125 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+    padding-top: 4.1rem;
+    font-weight: 200;
+}
+
+/*
+ * Typography
+ */
+h1 {
+    margin-bottom: 20px;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #eee;
+    text-transform: uppercase;
+}
+
+/*
+ * Sidebar
+ */
+.sidebar {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    border-right: 1px solid #eee;
+}
+
+/* Sidebar navigation */
+.sidebar .nav {
+    margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+    width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+    margin-left: 0;
+}
+
+.sidebar .nav-link {
+    border-radius: 0;
+}
+
+/**
+ * navbar
+ */
+nav.navbar {
+    border-bottom: 1px solid #dddddd;
+}
+
+/*
+ * Dashboard
+ */
+
+/* Placeholders */
+.placeholders {
+    padding-bottom: 3rem;
+}
+
+.placeholder img {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+nav.navbar {
+    padding: 0.6rem 2rem;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+@media (max-width: 767px){
+    .navbar-side {
+        display: none;
+    }
+}
+
+@media (max-width: 485px){
+    .navbar-brand > img {
+        width:199px;
+    }
+    nav.navbar {
+        padding: 0.8rem 2rem;
+    }
+}
+
+@media (max-width: 576px){
+    .sidebar {
+        width: 100%;
+    }
+}
+
+/* unter 768px view - tablet */
+@media (min-width: 767px) {
+    .navbar-expand-md .navbar-collapse {
+        display:none !important;
+    }
+    .ml-max {
+        margin-left: 22rem !important;
+    }
+}
+
+/* unter 576px view - handy */
+@media (min-width: 576px) {
+    .sidebar {
+        position: fixed;
+        top: 66px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+        border-right: 1px solid #eee;
+    }
+    .ml-max {
+        margin-left: 22rem !important;
+    }
+}

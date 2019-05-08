@@ -1,0 +1,750 @@
+{
+    "CIGOV1": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.512820512820513
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.375
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.595744680851064
+            }
+        ],
+        "description": "This indicator evaluates the average share of women in governing bodies.",
+        "title": "CI.1.1.Representation in main governing bodies",
+        "url": "assets/data/PLOTINA_indicators.pdf#page=9"
+    },
+    "CIGOV2": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.6
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.705882352941176
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 1.0
+            }
+        ],
+        "description": "This indicator evaluates the average share of women and men in advisory bodies.",
+        "title": "CI.1.2.Representation in main advisory bodies",
+        "url": "assets/data/PLOTINA_indicators.pdf#page=12"
+    },
+    "CIGOV3": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.666666666666667
+            }
+        ],
+        "description": "This indicator looks at the existence of a policy of the use of gender sensitive language and images in institutional official documents. If such a policy exists, it measures the extent of its implementation.",
+        "title": "CI.1.3.Gender sensitive language and images in institutional documents",
+        "url": null
+    },
+    "CIGOV4": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 1.0
+            }
+        ],
+        "description": "This indicator looks whether or not a gender equality policy exists and if yes, how it is structured.",
+        "title": "CI.1.4. Gender equality policy and structures",
+        "url": null
+    },
+    "CIREC1": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.374193548387097
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.500767776990314
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.550353535353535
+            }
+        ],
+        "description": "This indicator evaluates the share of women over different project types and roles.",
+        "title": "CI.2.1. Number of funded and coordinated projects, by gender",
+        "url": null
+    },
+    "CIWRK1": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 1.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.5
+            }
+        ],
+        "description": "This indicator considers the existence of two types of basic child care service provision, aiming to evaluate a potential gap between the demand and the supply of services.",
+        "title": "CI.3.1. Demand and supply of basic child care",
+        "url": null
+    },
+    "CIWRK2": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.4
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "This indicator measures the existence of a number of advanced child care service provisions.",
+        "title": "CI.3.2. Provision of advanced child care services",
+        "url": null
+    },
+    "CIWRK3": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "This indicator measures the existence of work-life-balance service provisions.",
+        "title": "CI.3.3. Provision of services for work and personal life integration",
+        "url": null
+    },
+    "CIWRK4": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 1.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.5
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 1.0
+            }
+        ],
+        "description": "This indicator looks whether or not there is a standard procedure to parental leave.",
+        "title": "CI.3.4. Standard procedure for parental leave",
+        "url": null
+    },
+    "SIGOV1": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "This indicator looks whether or not the RPO has ratified the European Charter for Researchers or other equivalent equal opportunity strategies.",
+        "title": "SI.1.1. Ratification of the European Charter for Researchers",
+        "url": null
+    },
+    "SIGOV2": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "This indicator looks at the existence of gender disaggregated data in RPO's periodic reports.",
+        "title": "SI.1.2. Provision of gender disaggregated data in RPO's periodic report",
+        "url": null
+    },
+    "SIGOV3": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0833333333333333
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 1.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "This indicator looks how many meetings are organised by the group in charge for the implementation of the GEPs.",
+        "title": "SI.1.3. Meetings for GEPs implementation ",
+        "url": null
+    },
+    "SIGOV4": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "This indicator looks whether or not gender equality guidelines or guiding principles exist to ensure gender equality and to overcome indirect and unconscious discrimination by assessment and evaluation committees.",
+        "title": "SI.1.4.Gender equality guidelines or guiding principles",
+        "url": null
+    },
+    "SIGOV5": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.037
+            }
+        ],
+        "description": "This indicator looks at the existence of an awareness raising training policies for i) members of recruitment selection committees, ii) HRM, iii) decision makers, and iv) public communication officers, v) administrative staff, vi) research staff (grade A, B, and C), vii) early stage researchers (grade D) and if they exist, the share of those attended compared to the total number of these person groups. Definition of \u00ebtraining\u00ed: at least \u03a9 a day (3-4 hours)",
+        "title": "SI.1.5. Awareness training on gender sensitive issues",
+        "url": null
+    },
+    "SIINT3": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "The indicator looks whether or not internal training seminars or guidelines on how to integrate of sex/gender dimension in teaching curricula exist. In order to foster the integration of sex/gender variables in teaching curricula, trainings seminars or guidelines for teachers are supportive.",
+        "title": "SI.5.3. Training seminars or guidelines on integrating sex/gender in teaching curricula",
+        "url": null
+    },
+    "SIREC1": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "This indicator looks first if a policy exists for the gender diverse composition of selection committees of job applicants and second at the composition of the selection committees in terms of gender.",
+        "title": "SI.1.6. Gender diverse recruitment selection committees",
+        "url": null
+    },
+    "SIREC10": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "This indicator looks at the existence of empowerment trainings career progression for researchers as a useful tool for their career development. Definition of training: at least \u03a9 day (3-4 hours)",
+        "title": "SI.2.11. Empowerment trainings for career progression",
+        "url": null
+    },
+    "SIREC11": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "This indicator looks at the existence of training for leadership skills for researchers (in particular for the underrepresented gender) as a useful tool for their career development. Ideally, it would include the following: leading a team/a meeting/a project, raise awareness of different leadership styles. If it exists, it measures i) ii) the ratio of female and male attendees of leadership training. Definition of training: at least \u03a9 day (3-4 hours)",
+        "title": "SI.2.11. Trainings for leadership",
+        "url": null
+    },
+    "SIREC12": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "This indicator looks at the existence of trainings for soft skills for researchers and key actors as a useful tool for their career development. Ideally, trainings would address the following topics: communication, team work, time management. If the trainings exist, the indicator measures the ratio of female and male attendees of soft skills training. Definition of training: at least \u03a9 day (3-4 hours)",
+        "title": "SI.2.12. Trainings for soft skills",
+        "url": null
+    },
+    "SIREC14": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "This indicator looks at the existence of mentoring programmes and if they exist, whether it is mandatory for academics on the job grade C to have a mentor Definition of \u00ebmentoring\u00ed: min. 6-8 meetings per semester. Mentoring relationships have powerful positive effects on (young) researchers in a variety of academic situations. Mentoring is an instrument for career development.",
+        "title": "SI.2.14. Mentoring programme",
+        "url": null
+    },
+    "SIREC4": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "This indicator looks whether or not positive gender action policy(ies) related to recruitment processes are in place. Positive action is a strategy to equalize the outcomes of recruitment processes. Such a policy could be that \u00ecIn the case of the same qualification, the underrepresented gender is selected preferentially\u00ee ",
+        "title": "SI.2.4. Positive actions in recruitment processes ",
+        "url": null
+    },
+    "SIREC5": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "This indicator is to assess whether there is an induction process for newly recruited staff and to what extent provides information about institutional/departmental policies with a focus on equality and diversity policies. Often, members of staff are not aware of policies, practices, and opportunities in the institution/department including gender equality and diversity policies (maternity/paternity/parental leave, flexibility, other services), career development etc. On arrival they are keen to learn about their new job. Once established in post they are much harder to communicate with.",
+        "title": "SI.2.5. Inclusion of gender issues in the induction process",
+        "url": null
+    },
+    "SIREC6": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 1.0
+            }
+        ],
+        "description": "This indicator looks whether or not positive gender action policies related to research evaluation, with effects on career progression, are in place. Positive action is a strategy to equalize the outcomes of career progression. Such a policy could consider maternity, paternity and parental leave periods into the assessing and the evaluating of research production.",
+        "title": "SI.2.6. Positive actions in research evaluation",
+        "url": null
+    },
+    "SIREC7": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "This indicator looks whether or not there is a career support schemes established at RPOs.The aim is to address the \u00ebleaky pipeline\u00ed phenomena, which is especially relevant for women in STEM.",
+        "title": "SI.2.7. Career Support Schemes",
+        "url": null
+    },
+    "SIREC8": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 1.0
+            }
+        ],
+        "description": "This indicator looks at the existence of awareness raising initiatives female role models in science. While women are relatively well represented at the lower grades of the academic career, at the top (\u00ecgrade A\u00ee) the female share is ~20% in all disciplines and 11% in Science and Engineering.",
+        "title": "SI.2.8. Initiatives for raising awareness on female role models",
+        "url": null
+    },
+    "SIREC9": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 1.0
+            }
+        ],
+        "description": "This indicator looks at the existence of awareness initiatives on female researchers\u00ed contribution in science by looking at the visibility of gender diversity in research teams (e.g. at the occasion of in researchers nights). While women are relatively well represented at the lower grades of the academic career, at the top (\u00ecgrade A\u00ee) the female share is ~20% in all disciplines and 11% in Science and Engineering.",
+        "title": "SI.2.9. Initiatives for raising awareness on gender diversity in research teams",
+        "url": null
+    },
+    "SIRES10": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "This indicator measures: the existence and the sustainability of PLOTINA competition for the best gender aware research case studies, in each RPO at departmental or institutional level, or the existence of prizes acknowledging the research quality resulting from the integration of the sex/gender variables. Given PhD students recognition for excellent gender aware research case studies means for them i) differentiation of the quality of its achievements from others, ii) more visibility, iii) validation and endorsement of the achievement, and iv) has a reinforcing effect to other PhD students to consider also the submission of a gender aware research case study. Likewise is it also an additional activity towards mainstreaming the core values of PLOTINA.",
+        "title": "SI.4.10. Application for the international PLOTINA competition and/or awards for integration of sex/gender variables in research",
+        "url": null
+    },
+    "SIRES2": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 1.0
+            }
+        ],
+        "description": "This indicator looks at the existence of networks/groups in the RPOs that are focused either on research in gender issues or on gender issues in research. Networking fosters the exchange of information and ideas among individuals.",
+        "title": "SI.4.2. Networks on gender issues research",
+        "url": null
+    },
+    "SIRES3": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 1.0
+            }
+        ],
+        "description": "The indicator looks at the existence of an annual gender report. In order to make women\u00eds performances and achievements in research and innovation visible accurate data are required.",
+        "title": "SI.4.3. Provision of an annual RPO gender report",
+        "url": null
+    },
+    "SIRES4": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "Based on the signed participant lists, the indicator measures the development of numbers of participants or applicants in internal training seminars or on the use of sex/gender analysis methods, as well as the ratio of female and male attendees towards more gender balance (40%), per field of research. In order to support researchers to develop gender literacy, the facilitation of training seminars in the use of sex and gender analysis methods is considered as a powerful instrument.",
+        "title": "SI.4.4. Participation in training seminars on integrating sex/gender analysis methods, by gender and field of research",
+        "url": null
+    },
+    "SIRES5": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "This indicator looks how widespread requirements of descriptions of how sex and/or gender analysis are taken into account is implemented in RPO's internal calls for project. The European Commission states, \u00ecThe gender dimension (\u00d6) enhances the societal relevance of the produced knowledge, technologies and innovations. It also contributes to the production of goods and services better suited to potential markets. To support this process, it is essential to devote resources to the gender aspects of research.\u00ee",
+        "title": "SI.4.5. Sex and/or gender analysis as requirements in RPO's internal calls",
+        "url": null
+    },
+    "SIWRK1": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.142857142857143
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.285714285714286
+            }
+        ],
+        "description": "This indicator measures the existence of policies supporting work and personal life integration. Work life balance is not simply essential for the health and well-being of individuals, but is also cost-efficient and stability enhancing both for the work-environment and the institution . The provisions of the following work-life balance support services are considered by the PLOTINA consortium.as important instrument to balance work and life obligations.",
+        "title": "SI.3.1. Policies on work and personal life integration",
+        "url": null
+    },
+    "SIWRK2": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 0.0
+            }
+        ],
+        "description": "This indicator looks whether or not there is a standard procedure to ensure that contacts are maintained during maternity, paternity and parental leave. Maintaining contact with colleagues and the organization during the maternity, paternity and paternal and parental leave helps to stay updated and integration after the parental leave works faster therefore.",
+        "title": "SI.3.2. Contacts with individuals during maternity, paternity and parental leave ",
+        "url": null
+    },
+    "non_normalized_CIRES1": {
+        "data": [
+            {
+                "date": "2016-12-01",
+                "m": 1,
+                "value": 8.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 2,
+                "value": 0.0
+            },
+            {
+                "date": "2016-12-31",
+                "m": 3,
+                "value": 1232.0
+            }
+        ],
+        "description": "This indicator looks at the number of scientific papers including sex/gender variables and dimensions, released by RPO's researchers. It is identical to the absolute number and should increase over time, rather than being standardized between zero and one.",
+        "title": "CI.4.1. Number of University's scientific papers including sex/gender variables and dimensions",
+        "url": null
+    }
+}
